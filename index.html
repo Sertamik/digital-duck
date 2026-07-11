@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Duck</title>
+
+    <meta
+        name="description"
+        content="Digital Duck Entity">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="css/base.css">
+
+    <link
+        rel="stylesheet"
+        href="css/loader.css">
+
+    <link
+        rel="stylesheet"
+        href="css/effects.css">
+
+</head>
+
+<body>
+
+    <!-- PIXI -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@8/dist/pixi.min.js"></script>
+
+    <!-- Loader -->
+    <div id="loader">
+
+        <div class="terminal">
+
+            <div id="terminal-output"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Scene -->
+
+    <main id="app">
+
+        <!-- Background -->
+
+        <canvas id="background"></canvas>
+
+        <!-- PIXI Scene -->
+
+        <div id="pixi-container"></div>
+
+        <!-- Glow -->
+
+        <div id="glow-layer"></div>
+
+        <!-- Vignette -->
+
+        <div id="vignette"></div>
+
+        <!-- Glitch -->
+
+        <div id="glitch-layer"></div>
+
+        <!-- Scan -->
+
+        <div id="scan-line"></div>
+
+        <!-- Contacts -->
+
+        <div id="contacts-panel">
+
+            <div class="panel-title">
+
+                ENTITY VERIFIED
+
+            </div>
+
+            <div class="panel-items">
+
+                <div>Telegram</div>
+
+                <div>Website</div>
+
+                <div>GitHub</div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
